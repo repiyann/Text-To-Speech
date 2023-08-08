@@ -50,12 +50,14 @@
 </head>
 
 <body>
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#16a085">
         <div class="d-flex justify-content-center align-items-center container">
             <h1> Text-To-Speech </h1>
         </div>
     </nav>
 
+    <!-- Content -->
     <div class="d-flex justify-content-center align-items-center container">
         <div class="card py-3 px-3 w-50">
             <h5 class="fw-bold text-center"> Input Text-To-Speech </h5>
@@ -102,6 +104,14 @@
             </form>
         </div>
     </div>
+
+    <!-- Footer & Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold text-decoration-none" href="https://github.com/repiyann"> @repiyann </a>
+    </div>
+
+    <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
