@@ -49,7 +49,7 @@
     </style>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#16a085">
         <div class="d-flex justify-content-center align-items-center container">
@@ -106,10 +106,12 @@
     </div>
 
     <!-- Footer & Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2023 Copyright:
-        <a class="text-reset fw-bold text-decoration-none" href="https://github.com/repiyann"> @repiyann </a>
-    </div>
+    <footer class="mt-auto">
+        <div class="text-center p-4 mt-5" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold text-decoration-none" href="https://github.com/repiyann"> @repiyann </a>
+        </div>
+    </footer>
 
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
