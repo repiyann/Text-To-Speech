@@ -84,7 +84,7 @@
                     $txt = rawurlencode($txt);
                     if (isset($_POST['bahasa'])) {
                         $selected = $_POST['bahasa'];
-                        $audio = file_get_contents('http://api.voicerss.org/?key=39ff74059fb14b0396fc3e47c37e4bcf&hl=' . $selected . '&f=16khz_16bit_mono&src=' . $txt);
+                        $audio = file_get_contents('http://api.voicerss.org/?key=##KEY##=' . $selected . '&f=16khz_16bit_mono&src=' . $txt);
                         $speech = "<audio controls='controls'><source src='data:audio/mp3;base64," . base64_encode($audio) . "'></audio>";
                 ?>
                         <hr class="mt-4">
